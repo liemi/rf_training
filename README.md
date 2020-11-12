@@ -10,7 +10,7 @@ Robot Framework test
 ### Requirements
 
 * Python 3.7 ->
-* Chrome browser
+* Chrome of Firefox
 
 
 ### Setup
