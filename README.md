@@ -31,7 +31,7 @@ rf-env\Scripts\activate.bat
 Install dependencies
 ```
 pip3 install -r requirements.txt
-webdrivermanager chrome
+webdrivermanager firefox chrome --linkpath rf-env/WebDriverManager
 ```
 Run test
 ```

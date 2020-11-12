@@ -4,7 +4,9 @@ Library           SeleniumLibrary   run_on_failure=Nothing
 *** Variables ***
 ${SERVER}         https://www.saucedemo.com/
 ${BROWSER}        Chrome
-${DRIVER}         rf-env/WebDriverManager/chrome/86.0.4240.22/chromedriver_win32/chromedriver.exe
+${DRIVER}         rf-env/WebDriverManager/chromedriver.exe  # Chrome Driver
+# ${BROWSER}        Firefox
+# ${DRIVER}         rf-env/WebDriverManager/geckodriver.exe  # Firefox Driver
 ${DELAY}          0
 
 *** Test Cases ***
